@@ -1,4 +1,4 @@
-a = int(input())
+a = 4
 b = []
 d = []
 for i in range(2,a):
@@ -6,7 +6,7 @@ for i in range(2,a):
     for j in range(2,i):
         if(i%j == 0):
             c = c + 1
-    if(c >= 1):
+    if(c >= 1): 
         print(i,"is a not a prime number")
         b.append(i)
     else:
