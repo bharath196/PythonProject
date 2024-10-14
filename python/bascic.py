@@ -14,4 +14,5 @@ for i in range(2,a):
         d.append(i)  
 
 print(d," are prime numbers",b,"---are not prime numbers----- aknc")
-print(d)              
+print(d)  
+print(a)            
